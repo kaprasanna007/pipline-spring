@@ -12,6 +12,7 @@ pipeline {
             }
         }
 
+        tages {
         stage('Build') {
             steps {
                 sh 'mvn clean install'
